@@ -15,7 +15,11 @@
 }
 
 .card-container{
+<<<<<<< HEAD
     width: 30%;
+=======
+    width: 20%;
+>>>>>>> d43a9bb095a66a2491550a7200f306cf79a1d470
     height: auto;
     display: flex;
     flex-direction: column;
@@ -37,7 +41,10 @@
     display: flex;
     width: 100%;
     flex-direction: column;
+<<<<<<< HEAD
     gap: 40px;
+=======
+>>>>>>> d43a9bb095a66a2491550a7200f306cf79a1d470
 }
 
 .text-container h3{
@@ -48,11 +55,18 @@
     display: flex;
     flex-direction: row;
     gap: 8px;
+<<<<<<< HEAD
     margin-top: 4px;
 }
 
 .ratings p{
     color: #667085;
+=======
+}
+
+.ratings p{
+    color: #475467;
+>>>>>>> d43a9bb095a66a2491550a7200f306cf79a1d470
 }
 
 /* .badge{
@@ -69,6 +83,7 @@
 } */
 
 .top-content{
+<<<<<<< HEAD
     display: none;
     flex-direction: row;
     height: auto;
@@ -77,6 +92,11 @@
     justify-content: space-between;
 
 
+=======
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+>>>>>>> d43a9bb095a66a2491550a7200f306cf79a1d470
 }
 
 .badge{
@@ -88,7 +108,11 @@
   background-color: #ffffff;
   border: 0.5px solid #ffffff;
   border-radius: 24px;
+<<<<<<< HEAD
   /* position: absolute; */
+=======
+  position: absolute;
+>>>>>>> d43a9bb095a66a2491550a7200f306cf79a1d470
   top: 16px;
   left: 16px;
   color: #1D2939;
@@ -96,7 +120,11 @@
 }
 
 .material-symbols-outlined{
+<<<<<<< HEAD
     /* position: absolute; */
+=======
+    position: absolute;
+>>>>>>> d43a9bb095a66a2491550a7200f306cf79a1d470
     right: 16px;
     top: 20px;
     color: white;
@@ -104,29 +132,46 @@
     display: none;
 }
 
+<<<<<<< HEAD
 .card-container:hover .top-content{
     display: flex;
     transition: 1ms;
 }
 
  /* .material-icons{
+=======
+.top-content:hover{
+    display: inline-block;
+}
+
+/* .material-icons{
+>>>>>>> d43a9bb095a66a2491550a7200f306cf79a1d470
     position: absolute;
     right: 16px;
     top: 20px;
     color: #6C7179;
     font-size: 4rem;  
     stroke: 7px solid white;
+<<<<<<< HEAD
 } */
+=======
+}
+>>>>>>> d43a9bb095a66a2491550a7200f306cf79a1d470
 
 .favorite-icon path {
     fill: #6C7179;         
     stroke: white;       
+<<<<<<< HEAD
     stroke-width: 1.5px;   
+=======
+    stroke-width: 1px;   
+>>>>>>> d43a9bb095a66a2491550a7200f306cf79a1d470
     transition: all 0.3s ease;
     position: absolute;
     right: 16px;
     top: 20px;  
     display: inline-block;
+<<<<<<< HEAD
   } 
   
   .rate{
@@ -143,6 +188,10 @@
     display: block;
   }
 
+=======
+  } */
+  
+>>>>>>> d43a9bb095a66a2491550a7200f306cf79a1d470
   /* .favorite-icon:hover path {
     fill: pink;
     stroke: purple;
