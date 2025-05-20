@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+CU:wght@100..400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+  }
+
+.section-container{
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+}
+
+.image-container{
+    height: 320px;
+    background-image: url("./Image\ 1.avif");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    background-position: center;
+}
+
+.bottom-content{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.text-container h3{
+    color: #1D2939;
+}
+
+.ratings{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-top: 4px;
+}
+
+.ratings p{
+    color: #667085;
+}
+
+/* .badge{
+    width: fit-content;
+    padding: 12px 8px;
+    background-color: white;
+    border: 1px solid white;
+    color: #344054;
+    border-radius: 32px;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+
+} */
+
+.top-content{
+    display: none;
+    flex-direction: row;
+    height: auto;
+    padding: 16px;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.badge{
+  display: inline-block;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 600;
+  padding: 12px 12px;
+  background-color: #ffffff;
+  border: 0.5px solid #ffffff;
+  border-radius: 24px;
+  /* position: absolute; */
+  top: 16px;
+  left: 16px;
+  color: #1D2939;
+  width: fit-content;
+}
+
+.material-symbols-outlined{
+    /* position: absolute; */
+    right: 16px;
+    top: 20px;
+    color: white;
+    font-size: 4rem;
+    display: none;
+}
+
+.card-container:hover .top-content{
+    display: flex;
+    transition: 1ms;
+}
+
+ /* .material-icons{
+    position: absolute;
+    right: 16px;
+    top: 20px;
+    color: #6C7179;
+    font-size: 4rem;  
+    stroke: 7px solid white;
+} */
+
+.favorite-icon path {
+    fill: #6C7179;         
+    stroke: white;       
+    stroke-width: 1.5px;   
+    transition: all 0.3s ease;
+    position: absolute;
+    right: 16px;
+    top: 20px;  
+    display: inline-block;
+  } 
+  
+  .rate{
+    display: inline-flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    line-height: 1;
+  }
+
+  .rate svg{
+    display: block;
+  }
+
+  /* .favorite-icon:hover path {
+    fill: pink;
+    stroke: purple;
+  }
+   */
